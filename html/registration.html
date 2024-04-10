@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация пользователя</title>
+</head>
+<body>
+<h1>Введите свои данные</h1>
+<form id="myForm" action="/exec/registration?login={{ .Login }}&email={{ .Email }}&token={{ .Token }}" enctype="multipart/form-data" method="post">
+    <label for="passwordInput">Введите пароль:</label>
+    <input type="text" id="passwordInput" name="passwordInput">
+    <button type="submit">Отправить</button>
+</form>
+<a href="/">Вернуться назад</a>
+</body>
+</html>
