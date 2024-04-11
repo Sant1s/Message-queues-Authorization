@@ -11,15 +11,15 @@ import (
 )
 
 const (
-	SMTP_SERVER_NAME      = "smtp.yandex.ru"
-	SMTP_SERVER_PORT      = 465
-	SENDER_EMAIL          = "nam.i@phystech.edu"
-	SENDER_EMAIL_PASSWORD = "06051999qew"
+	SMTP_SERVER_NAME      = ""
+	SMTP_SERVER_PORT      = 0
+	SENDER_EMAIL          = ""
+	SENDER_EMAIL_PASSWORD = ""
 
 	REGISTRATION_ACTON    = "registration"
 	RESET_PASSWORD_ACTION = "reset_password"
 
-	SERVER_ADDRES = "localhost:8080"
+	SERVER_ADDRES = ""
 )
 
 func generateLink(login, email, action string) (string, error) {
@@ -92,7 +92,7 @@ func SendMessageLoginUser(login, email string) error {
 	return nil
 }
 
-func SendMessageResetPassoword(login, email string) error {
+func SendMessageResetPassword(login, email string) error {
 	err := updateResetPasswordToken(login, email)
 	if err != nil {
 		return err

@@ -23,6 +23,7 @@ type ValidLink struct {
 type Links struct {
 	userRegistrationToken  *ValidLink
 	userResetPasswordToken *ValidLink
+	userPassword           string
 }
 
 type Clients struct {
@@ -113,4 +114,13 @@ func CheckTokenIsSame(login, email, token, action string) (bool, error) {
 func GetToken(link string) string {
 	parts := strings.Split(link, "token=")
 	return parts[1]
+}
+
+func SetPassword(login, email, password string) error {
+	if client, ok := clients[Clients{login, email}]; ok {
+		client.userPassword = password
+	} else {
+		return &UnknownUser{"Unknown user. Can not set password"}
+	}
+	return nil
 }

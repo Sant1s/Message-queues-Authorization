@@ -7,13 +7,13 @@
 </head>
 <body>
 <h1>Введите свои данные</h1>
-<form id="myForm" action="/exec/send_password_token" enctype="multipart/form-data" method="post">
+<form id="myForm" action="/send_register" enctype="multipart/form-data" method="post">
     <label for="loginInput">Введите логин:</label>
     <input type="text" id="loginInput" name="loginInput">
     <label for="emailInput">Введите почту:</label>
     <input type="text" id="emailInput" name="emailInput">
     <button type="submit">Отправить</button>
 </form>
-<a href="/reset_password">Забыл пароль</a>
+<a href="/forgot_password">Забыл пароль</a>
 </body>
 </html>

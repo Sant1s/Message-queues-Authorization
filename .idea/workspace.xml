@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e583f4b2-d5e3-4eeb-ae39-2e360d316e10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/html/reset_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/send_forgot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/send_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/forgot_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/forgot_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/invalid_token.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/invalid_token.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/email/email.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/email/email.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/email/token_manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/email/token_manager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/qeue/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/qeue/consumer.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2evB0rBnDFHtmhcTOPF8i1PB82U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Go Build.go build github.com/Sant1s/MessageQueueTask.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/mikiele/MIPT/KIS/Message-queues.-Authorization-1C-KIS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="go build github.com/Sant1s/MessageQueueTask" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="Message-queues.-Authorization-1C-KIS" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="software.aws.toolkits.jetbrains.core.execution.GoAwsConnectionRunConfigurationExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </EXTENSION>
+      <kind value="PACKAGE" />
+      <package value="github.com/Sant1s/MessageQueueTask" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-33c477a475b1-b97fc8a1e17c-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.14494.238" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-GO-241.14494.238" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/email/token_manager.go</url>
+          <line>119</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

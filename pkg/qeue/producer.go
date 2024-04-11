@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	HOST_NAME = "amqp://guest:guest@localhost:5672/"
+	HOST_NAME = ""
 )
 
 func SendMessage(msg, action string) error {
